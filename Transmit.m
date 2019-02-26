@@ -3,7 +3,7 @@ tx = sdrtx('Pluto','Gain',-1, 'CenterFrequency', 433e6);
 cd = comm.ConstellationDiagram; % Constellation Diagram setup 
 
 %% General system details
-Fc = 4.33e9;
+Fc = 4.33e8;
 Fs = 32;
 t = 1/Fs;
 frameSize = 1096;
